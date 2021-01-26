@@ -1,0 +1,50 @@
+﻿<Window x:Class="Into_the_trench.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Into_the_trench"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--Allies-->
+        <Image HorizontalAlignment="Left" Height="69" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Name="ally4"/>
+        <Label Content="Ally 4 name" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="70"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="85,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Ally 3 name" HorizontalAlignment="Left" Margin="85,85,0,0" VerticalAlignment="Top" Width="70"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="160,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Ally 2 name" HorizontalAlignment="Left" Margin="235,85,0,0" VerticalAlignment="Top" Width="70"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="235,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Ally 1 name" HorizontalAlignment="Left" Margin="160,85,0,0" VerticalAlignment="Top" Width="70"/>
+
+        <!--Enemies-->
+        <Image HorizontalAlignment="Left" Height="69" Margin="487,10,0,0" VerticalAlignment="Top" Width="70" Name="enemy1"/>
+        <Label Content="Enemy 1 name" HorizontalAlignment="Left" Margin="487,85,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Content="Enemy 1" HorizontalAlignment="Left" Margin="487,111,0,0" VerticalAlignment="Top" Width="70" Height="30"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="562,10,0,0" VerticalAlignment="Top" Width="70" Name="enemy2"/>
+        <Label Content="Enemy 2 name" HorizontalAlignment="Left" Margin="562,85,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Content="Enemy 2" HorizontalAlignment="Left" Margin="562,111,0,0" VerticalAlignment="Top" Width="70" Height="30"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="637,10,0,0" VerticalAlignment="Top" Width="70" Name="enemy3"/>
+        <Label Content="Enemy 3 name" HorizontalAlignment="Left" Margin="637,85,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Content="Enemy 3" HorizontalAlignment="Left" Margin="637,111,0,0" VerticalAlignment="Top" Width="70" Height="30"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="712,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Enemy 4 name" HorizontalAlignment="Left" Margin="712,85,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Content="Enemy 4" HorizontalAlignment="Left" Margin="712,111,0,0" VerticalAlignment="Top" Width="70" Height="30"/>
+
+
+        <!--Log-->
+        <Label Content="VS" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Height="82" Width="177" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="167" Margin="160,229,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="472"/>
+
+        <Image HorizontalAlignment="Left" Height="69" Margin="160,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="235,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="LOG" HorizontalAlignment="Left" Margin="160,197,0,0" VerticalAlignment="Top" Height="32" Width="472" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>

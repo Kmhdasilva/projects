@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Into the trench", "Into the trench.csproj", "{5DED2160-3121-4FC8-9EFA-2D3BCC89D57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DED2160-3121-4FC8-9EFA-2D3BCC89D57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DED2160-3121-4FC8-9EFA-2D3BCC89D57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DED2160-3121-4FC8-9EFA-2D3BCC89D57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DED2160-3121-4FC8-9EFA-2D3BCC89D57E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0BE6055-2102-4D53-B045-D2DC446573DB}
+	EndGlobalSection
+EndGlobal
